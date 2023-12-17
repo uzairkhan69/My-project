@@ -1,0 +1,703 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.822);
+}
+
+
+/* <!-- <============================ Section 1 start =================================> --> */
+
+body ul {
+    list-style: none;
+}
+
+body a {
+    text-decoration: none;
+}
+
+#SectionA {
+    width: 100%;
+    height: 935px;
+    background-color: rgba(0, 0, 0, 0.199);
+    /* background-color: lightblue; */
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav img {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav ul li {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: white;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.part {
+    margin-top: 30px;
+    margin-left: 650px;
+    display: flex;
+}
+
+.part .box {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+
+.part .box:hover {
+    cursor: pointer;
+    background-color: lightblue;
+    transition: all 0.5s ease-in-out;
+}
+
+.box i {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.part button {
+    margin-right: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #fecd1a;
+    border: none;
+}
+
+.part button a {
+    color: black;
+}
+
+#SectionA .text {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.text h2 {
+    margin-top: 10px;
+    color: white;
+    font-size: 70px;
+    width: 350px;
+}
+
+.text p {
+    color: white;
+    margin-top: 15px;
+    width: 450px;
+    font-size: larger;
+}
+
+.text button {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #fecd1a;
+    border: none;
+    box-shadow: 8px 0px 8px #fecd1a;
+}
+
+.text button a {
+    color: black;
+}
+
+.text button:hover {
+    cursor: pointer;
+    box-shadow: none;
+    transition: all 0.5s ease-in-out;
+}
+
+#SectionA .logo span {
+    background-color: #fecd1a;
+}
+
+#SectionA .logo {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#SectionA .logo .imgB {
+    position: absolute;
+    margin-top: 100px;
+}
+
+#SectionA .logo .img {
+    margin-left: 80px;
+}
+
+#SectionA .logo .imgC {
+    position: absolute;
+    margin-left: 80px;
+}
+
+#SectionA .containerA {
+    display: flex;
+}
+
+/* <!-- <============================ Section 1 End =================================> --> */
+
+
+/* <!-- <============================ Section 2 start ================================>--> */
+
+#Section2 .container2 .box1 {
+    height: 320px;
+    width: 280px;
+    margin-top: 100px;
+    margin-left: 50px;
+    background-color: black;
+    border-radius: 30px;
+}
+
+#Section2 .container2 .box {
+    display: flex;
+}
+
+#Section2 .container2 .box1:hover {
+    background-color: #64FAAB;
+    box-shadow: 20px -20px 20px -20px #64FAAB;
+}
+
+#Section2 .container2 .box2 {
+    transform: translateY(100px);
+    margin-left: 15px;
+}
+
+#Section2 .container2 .svg {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid #64FAAB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 70px;
+    transform: translateY(-200%);
+}
+
+#Section2 .container2 .svg:hover {
+    background-color: #64FAAB;
+}
+
+#Section2 .container2 .box2 .text h3 {
+    /* transform: translateX(20px); */
+    margin-left: 25px;
+    transform: translateY(-550%);
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+#Section2 .container2 .box2 .text p {
+    width: 250px;
+    margin-left: 10px;
+    transform: translateY(-400%);
+}
+
+#Section2 .container2 .text1 {
+    /* margin-top: 200px; */
+    margin-left: 150px;
+    transform: translateY(-50%);
+}
+
+#Section2 .container2 .text1 h2 {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+#Section2 .container2 .text1 p {
+    margin-top: 30px;
+    font-size: 20px;
+    width: 400px;
+}
+
+#Section2 .container2 .text1 button {
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #fecd1a;
+    border: none;
+    /* box-shadow: 8px 0px 8px #fecd1a; */
+}
+
+#Section2 .container2 .text1 button:hover {
+    cursor: pointer;
+}
+
+
+/* <!-- <======================== project 1 start===========================>--> */
+
+
+#project1 {
+    display: flex;
+}
+
+#project1 .text2 {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+#project1 .text2 h2 {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+#project1 .text2 p {
+    margin-top: 30px;
+    width: 500px;
+    font-size: 20px;
+}
+
+#project1 .text2 i {
+    margin-top: 30px;
+}
+
+#project1 .text2 a {
+    margin-left: 30px;
+}
+
+#project1 .box .img {
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+#project1 .box .img img {
+    border-radius: 10%;
+}
+
+/* <!-- <======================== project 1 End===========================>--> */
+
+
+/* <!-- <======================== Logo img ===========================>--> */
+
+#logo .img img {
+    width: 300px;
+    height: 300px;
+    margin-top: 70px;
+    float: right;
+}
+
+
+/* <!-- <======================== project 2 Start ===========================>--> */
+
+#project2 {
+    display: flex;
+    margin-top: 300px;
+    margin-left: 50px;
+}
+
+#project2 .box .img img {
+    border-radius: 10%;
+}
+
+#project2 .text2 {
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+#project2 .text2 h2 {
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+#project2 .text2 p {
+    margin-top: 30px;
+    width: 550px;
+    font-size: 20px;
+}
+
+#project2 .text2 i {
+    margin-top: 30px;
+}
+
+#project2 .text2 a {
+    margin-left: 20px;
+}
+
+/* <!-- <======================== project 2 End ===========================>-->
+
+/* <!-- <======================== Logo img ===========================>--> */
+
+#logo1 .img img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    color: #fcb900;
+    /* transform: translateX(-50%); */
+}
+
+
+/* <!-- <======================== project 3 Start ===========================>--> */
+
+#project3 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#project3 .text2 h2 {
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+#project3 .text2 p {
+    margin-top: 30px;
+    width: 500px;
+    font-size: 20px;
+}
+
+#project3 .text2 i {
+    margin-top: 30px;
+}
+
+#project3 .text2 a {
+    margin-left: 20px;
+}
+
+#project3 .box .img img {
+    margin-left: 50px;
+    transform: translateY(-15%);
+    border-radius: 10%;
+}
+
+/* <!-- <======================== project 3 End ===========================>--> */
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 8px 8px 0px white;
+}
+
+.btn button:hover {
+    box-shadow: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+/* <!-- <======================== Box Start ===========================>--> */
+
+
+#box {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+#box .box1 {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    border-radius: 30px 0px 0px 30px;
+}
+
+#box .box1 .text {
+    margin-left: 60px;
+}
+
+#box .box1 .text span {
+    font-size: 50px;
+    margin-left: 30px;
+    display: flex;
+    transform: translateY(150%);
+}
+
+#box .box1 .text h3 {
+    margin-top: 100px;
+}
+
+#box .box2 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    margin-left: 20px;
+    /* border-radius: 30px 0px 0px 30px; */
+}
+
+#box .box2 .text {
+    margin-left: 60px;
+}
+
+#box .box2 .text span {
+    font-size: 50px;
+    margin-left: 30px;
+    display: flex;
+    transform: translateY(150%);
+}
+
+#box .box2 .text h3 {
+    margin-top: 100px;
+}
+
+#box .box3 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    margin-left: 20px;
+    /* border-radius: 30px 0px 0px 30px; */
+}
+
+#box .box3 .text {
+    margin-left: 60px;
+}
+
+#box .box3 .text span {
+    font-size: 50px;
+    margin-left: 30px;
+    display: flex;
+    transform: translateY(150%);
+}
+
+#box .box3 .text h3 {
+    margin-top: 100px;
+}
+
+#box .box4 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    margin-left: 20px;
+    border-radius: 0px 30px 30px 0px;
+    position: relative;
+}
+
+#box .box4 .text {
+    margin-left: 60px;
+}
+
+#box .box4 .text span {
+    font-size: 50px;
+    margin-left: 50px;
+    display: flex;
+    transform: translateY(150%);
+}
+
+#box .box4 .text h3 {
+    margin-top: 100px;
+}
+
+#box .logo img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    transform: translateY(-40%);
+    margin-left: 150px;
+}
+
+#box .logo1 img {
+    width: 100px;
+    height: 100px;
+    margin-top: 180px;
+    transform: translateX(50%);
+}
+
+/* <!-- <======================== Box End ===========================>--> */
+
+/* <!-- <======================== Slider ===========================>--> */
+
+#slider {
+    margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+}
+
+#slider .img img {
+    width: 250px;
+    height: 300px;
+    margin-left: 50px;
+    border-radius: 10%;
+}
+
+#slider .text {
+    margin-left: 100px;
+}
+
+#slider .text p {
+    margin-top: 30px;
+    width: 500px;
+    font-size: 25px;
+}
+
+#slider .text span {
+    font-size: larger;
+}
+
+#slider .text h4 {
+    margin-top: 20px;
+}
+
+
+/* <!-- <======================== Slider End ===========================>--> */
+
+
+/* <!-- <======================== Container Start ===========================>--> */
+
+#work {
+    width: 1250px;
+    height: 400px;
+    background-color: black;
+    margin-top: 150px;
+    margin-left: 50px;
+    border-radius: 50px;
+}
+
+#work .text {
+    transform: translateY(-30%);
+}
+
+#work .text h3 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 450px;
+}
+
+#work .text span {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#work .text pre {
+    width: 700px;
+    margin-top: 30px;
+    margin-left: 350px;
+    color: white;
+}
+
+#work .text button {
+    margin-left: 550px;
+    transform: translateY(-200%);
+}
+
+#work .text img {
+    margin-top: 65px;
+    transform: translateX(295%);
+}
+
+/* <!-- <======================== Container End ===========================>--> */
+
+
+/* <!-- <======================== Footer Start ===========================>--> */
+
+
+#footer {
+    margin-top: 150px;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+#footer .container-fluid {
+    display: flex;
+}
+
+#footer .container-fluid img {
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+#footer .container-fluid p {
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+#footer .container-fluid .icon {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+#footer .container-fluid .icon .box1 {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.616);
+    border-radius: 10px;
+}
+
+#footer .container-fluid .icon .box1 i {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#footer .container-fluid .icon .box2 i {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#footer .container-fluid .icon .box3 i {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#footer .container-fluid .icon .box4 i {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#footer .container-fluid .icon .box2 {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.616);
+    border-radius: 10px;
+    transform: translateX(120%);
+}
+
+#footer .container-fluid .icon .box3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.616);
+    transform: translateX(250%);
+}
+
+#footer .container-fluid .icon .box4 {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.616);
+    border-radius: 10px;
+    transform: translateX(350%);
+}
+
+
+/* <!-- <======================== Footer End ===========================>--> */

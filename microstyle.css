@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: lightblue; */
+}
+.logo{
+    margin-top: 22px;
+    margin-left: 50px;
+}
+.logo img{
+    width: auto;
+    height: 25px;
+}
+.logo img:hover{
+    cursor: pointer;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.678);
+}
+.menu-left{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.menu-left li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.menu-right{
+    margin-left: 500px;
+    display: flex;
+    align-items: center;
+}
+.menu-right li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.menu-right li i:hover{
+    cursor: pointer;
+}
+.icon{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+
+/* img1 */
+
+.container1{
+    height: 700px;
+    flex-wrap: wrap;
+    position: relative;
+}
+.container1 img{
+    width: 100%;
+}
+.container1 .titel{
+    position: absolute;
+    top: 200px;
+    margin-left: 100px;
+    font-size: larger;
+}
+.container1 .discription{
+    position: absolute;
+    top: 250px;
+    margin-left: 100px;
+    width: 400px;
+}
+.container1 .button{
+    position: absolute;
+    top: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.container1 .button .B{
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+.container1 .button .B:hover{
+    text-decoration: underline;
+}
+.icon1{
+    margin-left: 10px;
+    color: blue;
+}
+.icon2{
+    margin-left: 10px;
+}
+.container1 .B .icon2:hover{
+    transform: translateX(10px);
+}
+.container1 .button .A{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 255, 0.76);
+}
+.button .A{
+    color: white;
+    border: 8px solid rgba(0, 0, 255, 0.616);
+    text-decoration: none;
+}
+
+/* .container 2 */
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+    padding: 20px 0px;
+    /* background-color: lightblue; */
+}
+.container2 .card{
+    width: 300px;
+    margin-top: 20px;
+}
+.container2 .titel{
+    margin-top: 20px;
+    width: 300px;
+}
+.container2 .discription{
+    margin-top: 20px;
+    width: 300px;
+    font-size: 18px;
+}
+.container2 .button{
+    margin-top: 25px;
+}
+.container2 .button a{
+    text-decoration: none;
+    color: blue;
+}
+.container2 .button a:hover{
+    text-decoration: underline;
+}
+
+
+/* container 3 */
+
+.container3{
+    width: 100%;
+    height: 700px;
+    margin-top: 5px;
+    position: relative;
+    flex-wrap: wrap;
+}
+.container3 img{
+    margin-left: 40px;
+}
+.container3 .titel{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    width: 300px;
+    font-size: larger;
+}
+.container3 .discription{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    font-size: larger;
+}
+.container3 .button{
+    position: absolute;
+    text-decoration: none;
+    top: 350px;
+    left: 150px;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 255, 0.753);
+}
+.container3 .button a{
+    color: white;
+}
+.container3 .button a:hover{
+    background-color: rgba(13, 13, 97, 0.363);
+    transform: scale(1.1);
+}
+.container3 .button a{
+    text-decoration: none;
+}
+
+
+/* container 4 */
+
+.container4{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    /* background-color: lightblue; */
+}
+h1{
+    margin-left: 20px;
+}
+.container4 .card2{
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 100%;
+    height: auto;
+}
+.container4 .titel{
+    margin-top: 20px;
+    width: 250px;
+}
+.container4 .discription{
+    margin-top: 20px;
+    width: 250px;
+    font-size: 18PX;
+}
+.container4 .button{
+    margin-top: 20px;
+}
+.container4 .button a{
+    text-decoration: none;
+    color: blue;
+}
+.container4 .button a:hover{
+    text-decoration: underline;
+}
+
+
+/* container 5 */
+
+.container5{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: lightblue; */
+}
+.container5 p{
+    margin-left: 30px;
+    font-size: 18px;
+}
+.container5 i{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: black;
+}
+.container5 i:hover{
+    cursor: pointer;
+}
+
+/* .container 6 */
+
+
+.container6{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(220, 231, 240, 0.973);
+}
+.container6-card .titel{
+    color: rgba(0, 0, 0, 0.589);
+}
+.container6-card{
+    padding: 0px 40px;
+    margin: 40px 20px;
+}
+.container6-card li{
+    margin-top: 15px;
+    font-size: small;
+}
+.container6-card .button{
+    margin-top: 10px;
+}
+.container6-card .button li{
+    list-style: none;
+}
+.footer .menu-right li{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.footer .menu-left li{
+    margin-left: 20px;
+}
+.footer li{
+    font-size: small;
+}
+

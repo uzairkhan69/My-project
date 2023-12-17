@@ -1,0 +1,12 @@
+#main .row .a{
+    display: flex;
+    justify-content: center;
+}
+footer .row h1{
+    display: flex;
+    justify-content: center;
+}
+footer hr{
+    width: 300px;
+    margin-left: 400px;
+}

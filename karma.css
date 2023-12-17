@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color: #FAFAFA;
+    /* background: lightblue; */
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.link{
+    display: flex;
+    align-items: center;
+    margin-left: 650px;
+}
+ul li{  
+    padding: 10px 10px;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+.icon1{
+    margin-left: 10px;
+}
+.red{
+    color: rgba(255, 0, 0, 0.973);
+}
+.red:hover{
+    color: rgba(255, 0, 0, 0.712);
+}
+.hover{
+    width: 100px;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: #FF5A5A;
+    color: white;
+}
+.hover:hover{
+    background-color: #161B37;
+    cursor: pointer;
+}
+.hover1:hover{
+    color: rgba(0, 0, 0, 0.774);
+}
+
+/* <....................container1 ..............................>*/
+
+.container1{
+    width: 100%;
+    height: 700px;
+    background-color: #FAFAFA;
+    display: flex;
+}
+.section1{
+    margin: 200px 100px;
+}
+.section1 h1{
+    width: 500px;
+    font-size: 50px;
+    font-family: sans-serif;
+    /* background-color: lightblue; */
+}
+.section1 .discription{
+    margin-top: 20px;
+    width: 520px;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.section1 .button{
+    width: 100px;
+    margin-top: 20px;
+    background-color: #FF5A5A;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+.section1 .button a{
+    text-decoration: none;
+    color: white;
+}
+.section1 .button:hover{
+    background-color: #161B37;
+    cursor: pointer;
+}
+.container1 .img img{
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+}
+.container1 .section1 h5{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.container1 .logo123{
+    margin-top: 20px;
+}
+.container1 .logo123 img{
+    margin: 0px 5px; 
+}
+.container1 .logo123 img:hover{
+    cursor: pointer;
+}
+
+/* <................container2......................> */
+
+.container2{
+    width: 100%;
+    height: 1500px;
+}
+.container2 h2{
+        margin-top: 100px;
+        margin-left: 80px;
+        font-size: 45px;
+        width: 1200px;
+        font-family: sans-serif;
+}
+.container2 .section2{
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 70px;
+    padding: 0px 10px;
+}
+.container2 .section2 .titel{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.container2 .section2 .discription{
+    margin-top: 20px;
+    font-size: large;
+    font-family: sans-serif;
+    width: 320px;
+}
+
+
+
+ .section3{
+    width: 600px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 60px;
+    display: flex;
+    background-color: rgba(255, 192, 203, 0.863);
+
+}
+.section3>img{
+    position: absolute;
+}
+.container3 .section3 img{
+    width: auto;
+    height: 250px;
+}
+.A{
+    padding-top: 10px;
+}
+.B{
+    padding-top: 130px;
+    padding-left: 80px;
+}
+.C{
+    padding-left: 300px;
+    padding-top: 50px;
+}
+.container3{
+    display: flex;
+}
+.container3 .section4{
+    margin-top: 200PX;
+    margin-left: 40px;
+}
+.container3 .section4 .titel{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.container3 .section4 .discription{
+    margin-top: 20px;
+    width: 500px;
+    font-size: large;
+    font-family: sans-serif;
+}
+.container3 .section4 .button{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.container3 .section4 .button a{
+    color: red;
+}
+.container3 .section4 .button a:hover{
+    color: rgba(0, 0, 0, 0.753);
+}
+.container4 .section5{
+    margin-top: 250px;
+    margin-left: 70px;
+}
+.container4 .section5 .titel{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.container4 .section5 .discription{
+    margin-top: 30px;
+    width: 570px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.container4 .section5 .button{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.container4 .section5 .button a{
+    color: red;
+}
+.container4 .section5 .button a:hover{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.671);
+}
+.container4{
+    display: flex;
+}
+.container4 .section6{
+    width: 600px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 60px;
+    background-color: rgba(250, 128, 114, 0.623);
+}
+.container4 .section6 img{
+    position: absolute;
+    width: auto;
+    height: 200px;
+}
+.container4>img{
+    position: absolute;
+}
+.A1 .A{
+padding-left: 280px;
+padding-top: 30px;
+}
+.A1 .B{
+padding-left: 120px;
+padding-top: 100px;
+}
+.A1 .C{
+padding-left: 300px;
+padding-top: 150px;
+}
+
+
+/* <.............container 5..................> */
+
+.container5{
+    width: 100%;
+    height: 600px;
+    background-color: #FAFAFA;
+}
+.container5 .section7{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 70px;
+}
+.container5 .section7 .titel{
+    font-size: 30px;
+    width: 200px;
+}
+.container5 .section7 .discription{
+    margin-top: 30px;
+    font-size: large;
+    width: 300px;
+}
+.container5 .section7 .button{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.container5 .section7 .button a{
+    color: red;
+}
+.container5 .section7 .button a:hover{
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.container5 .card{
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 100px;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px rgba(173, 216, 230, 0.158);
+}
+.container5 .card .section8{
+    margin-left: 30px;
+}
+.container5 .card .section8 .heading{
+    width: auto;
+    height: 50px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+.container5 .card .section8 .titel{
+    margin-top: 30px;
+}
+.container5 .card .section8 .titel h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.container5 .card .section8 .titel span{
+    margin-top: 10px;
+}
+.container5 .card .section8 .titel p{
+    margin-top: 20px;
+}
+.container5 .card .section8 .button{
+    margin-top: 100px;
+    margin-left: 50px;
+    background-color: #FF5A5A;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.container5 .card .section8 .button a{
+    color: white;
+    text-decoration: none;
+}
+.container5 .card .section8 .button:hover{
+    background-color: #161B37;
+    cursor: pointer;
+}
+
+
+
+.container5 .card .section9{
+    position: absolute;
+    margin-left: 320px;
+    width: 300px;
+    height: 450px;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px rgba(173, 216, 230, 0.158);
+}
+.container5 .card .section9 .heading{
+    width: auto;
+    height: 50px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: pink;
+}
+.container5 .card .section9 .titel{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.container5 .card .section9 .titel h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.container5 .card .section9 .titel span{
+    margin-top: 10px;
+}
+.container5 .card .section9 .titel p{
+    margin-top: 20px;
+}
+.container5 .card .section9 .button{
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: #FF5A5A;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.container5 .card .section9 .button a{
+    color: white;
+    text-decoration: none;
+}
+.container5 .card .section9 .button:hover{
+    background-color: #161B37;
+    cursor: pointer;
+}
+.container6{
+    width: 100%;
+    height: 700px;
+}
+.container6 h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.container6 .titel p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.container6 .img img{
+    width: auto;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.container6 .img{
+    display: flex;
+}
+.container6 .titel1 p{
+    width: 500px;
+}
+.container6 .titel1{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.container6 .titel1 h2{
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.container6 .titel1 p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.container7{
+    width: 100%;
+    height: 500px;
+    background-color: #FFD2B1;
+}
+.container7 h1{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.container7 p{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 200px;
+    font-size: 20px;
+    width: 900px;
+}
+.container7 .button{
+    text-align: center;
+    width: 100px;
+    margin-top: 20px;
+    background-color: #FF5A5A;
+    padding: 20px 40px;
+    border-radius: 30px;
+    margin-left: 550px;
+}
+.container7 .button a{
+    color: white;
+    text-decoration: none;
+}
+.container7 .button:hover{
+    background-color: #161B37;
+    cursor: pointer;
+}
+
+.container8{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    position: absolute;
+    background-color: #161B37;
+}
+.container8 .menu1{
+    margin-top: 80px;
+    margin-left: 80px;
+    color: white;
+    padding: 0px 25px;
+}
+.container8 .menu1 img{
+    color: white;
+}
+.container8 .menu1 a{ 
+    color: aqua;
+}
+.container8 .menu1 p{
+    margin-top: 20px;
+}
+.container8 .menu1 li a{
+    color: white;
+}
+.container8 .menu1 input{
+    margin-top: 30px ;
+    margin-bottom: 40px;
+    width: 150px;
+    font-size: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+} 
+.menu1 button{
+  text-decoration: none;
+  background-color: #FF5A5A;
+  border: none;
+  width: 210px;
+  height: 45px;
+  color: white;
+  border-radius: 20px;
+}
+.container8 .menu1 button:hover{
+    background-color: #FAFAFA;
+    color: #FF5A5A;
+    cursor: pointer;
+}
+.container8 .menu1 li a:hover{
+    color: aqua;
+}
+.container8 .menu1 input{
+ width: 200px;   
+}
+.menu1 input::placeholder{
+    text-align: center;
+}
+.container8 .menu1 li:hover{
+    color: rgba(255, 255, 255, 0.637);
+}
